@@ -1,0 +1,219 @@
+:root {
+    --main-font-name: 'Roboto';
+    --main-font-family: sans-serif;
+    --secondary-font-name: 'Raleway';
+    --secondary-font-family: sans-serif;
+
+    --main-text-color: #757575;
+    --main-background-color: #ffffff;
+    --accent-text-color:#FFFFFF;
+    --accent-color:#2196F3;
+    --title-text-color:#212121;
+    --button-background-color:#F5F4FA;
+    --section-background-color:#2F303A;
+    --address-color: rgba(255, 255, 255, 0.6);
+}
+
+.body {
+    color: var(--main-text-color);
+    background-color: var(--main-background-color);
+    font-family: var(--main-font-name), var(--main-font-family);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+
+.link {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.logo {
+    color: var(--title-text-color);
+    font-family: var(--secondary-font-name);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+}
+
+.logo-main {
+    color: var(--accent-color);
+    font-family: var(--secondary-font-name);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+}
+
+.site-nav.link {
+    color:var(--title-text-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.site-nav.link:hover,
+.site-nav.link:focus {
+    color:var(--accent-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.header-contact.link {
+    color:var(--main-text-color);
+    font-family: var(--main-font-name);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.header-contact.link:hover,
+.header-contact.link:focus {
+    color:var(--accent-color);
+    font-family: var(--main-font-name);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.hero-section {
+    background-color: var(--section-background-color);
+}
+
+.hero-title {
+    color: var(--accent-text-color);
+    font-family: var(--main-font-name);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    /* or 136% */
+    
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hero-button {
+    color: var(--accent-text-color);
+    background-color: var(--accent-color);
+    font-family: var(--main-font-name);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 187% */
+    
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+}
+
+.section-title {
+    color: var(--title-text-color);
+    font-family: var(--main-font-name);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.section-subtitle {
+    color: var(--title-text-color);
+    font-family: var(--main-font-name);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.section-text {
+    font-family: var(--main-font-name);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
+}
+
+.name {
+    color: var(--title-text-color);
+    font-family: var(--main-font-name);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    letter-spacing: 0.03em;
+}
+
+.name-subtitle {
+    font-family: var(--main-font-name);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    letter-spacing: 0.03em;
+}
+
+.page-footer {
+    background-color: var(--section-background-color);
+}
+
+.footer-logo {
+    color: var(--accent-text-color);
+    font-family: var(--secondary-font-name);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+}
+
+.address {
+    color: var(--accent-text-color);
+    font-family: var(--main-font-name);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
+}
+
+.address.link {
+    color: var(--address-color);
+}

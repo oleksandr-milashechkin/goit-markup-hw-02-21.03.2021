@@ -1,0 +1,38 @@
+.button {
+    color: var(--main-text-color);
+    background-color: var(--button-background-color);
+    border-radius: 4px;
+    font-family: var(--main-font-family);
+    font-weight: 500;
+    border-width: 0px;
+}
+
+.button:hover {
+    color: var(--accent-text-color);
+    background-color: var(--accent-background-color);
+    font-weight: 500;
+}
+
+.button:focus {
+    color: var(--accent-text-color);
+    background-color: var(--accent-background-color);
+}
+
+.main-logo {
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 26px;
+}
+.link {
+    color: var(--main-text-color);
+    text-decoration: none;
+}
+.link:hover {
+    color: var(--accent-text-color);
+    background-color: var(--accent-background-color);
+    text-decoration: none;
+}
