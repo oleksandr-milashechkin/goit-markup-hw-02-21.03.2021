@@ -28,6 +28,13 @@
     text-decoration: none;
 }
 
+.title {
+    color: var(--title-text-color);
+    font-family: var(--main-font-name);
+    font-style: normal;
+    font-weight: bold;
+}
+
 ul {
     list-style: none;
 }
@@ -130,6 +137,37 @@ ul {
     text-decoration: none;
 }
 
+.nav-button {
+    color: var(--title-text-color);
+    background-color: var(--button-background-color);
+    font-family: var(--main-font-name);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+/* identical to box height, or 162% */
+
+text-align: center;
+letter-spacing: 0.03em;
+border-radius: 4px;
+}
+
+.nav-button:hover,
+.nav-button:focus {
+    color: var(--accent-text-color);
+    background-color: var(--accent-color);
+    font-family: var(--main-font-name);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+/* identical to box height, or 162% */
+
+text-align: center;
+letter-spacing: 0.03em;
+border-radius: 4px;
+}
+
 .section-title {
     color: var(--title-text-color);
     font-family: var(--main-font-name);
@@ -147,7 +185,7 @@ ul {
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 16,41px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
