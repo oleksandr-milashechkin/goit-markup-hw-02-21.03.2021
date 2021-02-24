@@ -25,6 +25,7 @@
 }
 
 .link {
+    color: var(--title-text-color);
     text-decoration: none;
 }
 
@@ -255,3 +256,50 @@ border-radius: 4px;
 .address.link {
     color: var(--address-color);
 }
+
+.address.link:hover,
+.address.link:focus {
+    color: var(--accent-color);
+}
+
+.progects {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 187% */
+    
+    letter-spacing: 0.03em;
+}
+
+.progects-title {
+    color: var(--title-text-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    /* identical to box height, or 200% */
+    
+    letter-spacing: 0.06em;
+}
+
+.progects-title.link:hover,
+.progects-title.link:focus {
+    color: var(--accent-color);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
